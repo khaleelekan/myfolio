@@ -31,7 +31,7 @@ const Navbar = () => {
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "y" : "bg-transparent"
-      }`}
+      } bg-black` }
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
