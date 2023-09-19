@@ -16,10 +16,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I am <span className='text-[#915EFF]'>Khaleel</span>
+            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop responsive websites, user <br className='sm:block hidden' />
+            I develop 3D visuals, user <br className='sm:block hidden' />
             interfaces and web applications
           </p>
         </div>
@@ -37,9 +37,9 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: 'loop',
+                repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-white mb-1'
+              className='w-3 h-3 rounded-full bg-secondary mb-1'
             />
           </div>
         </a>
